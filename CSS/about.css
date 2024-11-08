@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url('../IMAGE/church.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 11px 25px 16px 25px;
+}
+.logo{
+    display: inline-block;
+}
+.logo h2{
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.nav-container{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+.about{
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+button.wedding{
+    background-color: #2ecc71;
+    color: rgba(255, 251, 251, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 13px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link{
+    color: rgba(255, 251, 251, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-right: 5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.teresita{
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+h3{
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: oblique;
+}
+p{
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: large;
+    letter-spacing: 1px;
+    text-align: center;
+    text-indent: 48px;
+    word-spacing: 3px;
+}
